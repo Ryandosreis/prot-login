@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+body {
+    background-color: rgb(219, 217, 217);
+    width: 100vw;
+    height: 100vh;
+}
+.header {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between ;
+}
+.header h1 {
+    color:#FF7626 ;
+    font-size: 4em;
+    margin-left: 30px;
+}
+.campo-nav {
+
+}
+.lists {
+    list-style: none;  
+}
+.lists li {
+    display: inline-block;
+    margin: 10px 20px ;
+}
+.lists li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.lists li a:hover {
+    background-color: #CC5E1F;
+    color: whitesmoke;
+    border-radius: 4px;
+}
+
+
+
+.conteudo {
+    width: 90%;
+    height: 78%;
+    background-color: #CC5E1F;
+    display: flex;
+    margin: auto;
+    border-radius: 30px;
+}
+
+.left {
+    width: 60%;
+    padding: 30px;
+}
+.left h2 {
+    font-size: 2em;
+    padding-left: 20px;
+}
+.imagem {
+    padding-left: 40px;
+    width: 300px;
+}
+.right {
+    width: 40%;
+    margin-right: 70px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.right input {
+    margin-bottom: 3rem;
+    height: 3rem;
+}
+@media screen and (max-width:600px) {
+     header {
+        height: 20%;
+     }
+     .header > h1 {
+        display: block;
+        margin: auto;
+        font-size:3em;
+     }
+     .lists li {
+        display: none;
+     }
+     .conteudo  h2 {
+        display: none;
+     }
+     .imagem {
+        width: 200px;
+        padding-top: 30px;
+     }
+     
+
+}
