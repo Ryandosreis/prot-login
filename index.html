@@ -1,39 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="css/style.css">
-    <title>ryan.com</title>
+    <title>Login Ry7N</title>
 </head>
 <body>
-    <header class="header">
-        <h1>RY7N</h1>
-         <span class="material-symbols-outlined">
-                menu
-            </span>
-        <nav class="campo-nav">
-            <ul class="lists">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="conteudo">
-        <div class="left">
-            <h2>Venha nessa ventura e <br> se divirta</h2>
-            <img class="imagem" src="img/AvatarMaker.png" alt="imagem de avatar">
+    <div class="tema">
+        <h1>Ry7N</h1>
+    </div>
+    <div class="corpo-completo">
+        <div class="img">
+            <img  src="img/AvatarMaker.png" alt="imagem do avatar do site">
         </div>
-        <div class="right">
-            <h1>Faça seu login</h1>
-            <label for="usuario">Usúario</label>
-            <input type="email" name="usuario" id="usuario" required placeholder="Usuário">
-            <label for="senha">Senha</label>
-            <input type="password" name="senha" id="senha" required placeholder="Senha" >
+        <div class="form">
+            <h2>Faça Seu Login</h2>
+            <div class="login">
+                <label for="usuario">Usuário</label>
+                <input type="email" id="usuario" name="usuario" required placeholder="Usuário" minlength="6" maxlength="15" size="12">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" name="senha" required placeholder="Senha"  minlength="6" maxlength="12" size="12">
+            </div>
+            <div class="btn">
+                <input class="button" type="button" value="Login">
+
+            </div>
         </div>
-    </main>
+    </div>
 </body>
 </html>
